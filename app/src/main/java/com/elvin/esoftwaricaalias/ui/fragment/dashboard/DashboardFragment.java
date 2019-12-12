@@ -1,4 +1,4 @@
-package com.elvin.esoftwaricaalias.ui.dashboard;
+package com.elvin.esoftwaricaalias.ui.fragment.dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

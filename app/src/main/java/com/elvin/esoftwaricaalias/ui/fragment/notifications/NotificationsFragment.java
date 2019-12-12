@@ -1,4 +1,4 @@
-package com.elvin.esoftwaricaalias.ui.notifications;
+package com.elvin.esoftwaricaalias.ui.fragment.notifications;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package com.elvin.esoftwaricaalias.ui.dashboard;
+package com.elvin.esoftwaricaalias.ui.fragment.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

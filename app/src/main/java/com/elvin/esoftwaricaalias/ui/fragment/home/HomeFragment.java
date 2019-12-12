@@ -1,4 +1,4 @@
-package com.elvin.esoftwaricaalias.ui.home;
+package com.elvin.esoftwaricaalias.ui.fragment.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
