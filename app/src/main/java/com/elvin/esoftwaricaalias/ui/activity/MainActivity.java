@@ -1,7 +1,8 @@
-package com.elvin.esoftwaricaalias;
+package com.elvin.esoftwaricaalias.ui.activity;
 
 import android.os.Bundle;
 
+import com.elvin.esoftwaricaalias.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
