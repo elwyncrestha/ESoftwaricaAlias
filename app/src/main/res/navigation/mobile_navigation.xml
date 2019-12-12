@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.elvin.esoftwaricaalias.ui.fragment.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_add_student"
+        android:name="com.elvin.esoftwaricaalias.ui.fragment.student.AddStudentFragment"
+        android:label="@string/title_add_student"
+        tools:layout="@layout/fragment_add_student" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.elvin.esoftwaricaalias.ui.fragment.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_about_us"
+        android:name="com.elvin.esoftwaricaalias.ui.fragment.about.AboutUsFragment"
+        android:label="@string/title_about_us"
+        tools:layout="@layout/fragment_about_us" />
 </navigation>
