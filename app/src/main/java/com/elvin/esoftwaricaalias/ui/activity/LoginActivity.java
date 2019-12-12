@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.elvin.esoftwaricaalias.R;
-import com.elvin.esoftwaricaalias.ui.core.AppConstant;
+import com.elvin.esoftwaricaalias.core.AppConstant;
 
 public class LoginActivity extends AppCompatActivity {
 

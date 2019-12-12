@@ -1,4 +1,4 @@
-package com.elvin.esoftwaricaalias.ui.core;
+package com.elvin.esoftwaricaalias.core;
 
 /**
  * @author Elvin Shrestha on 12/12/19

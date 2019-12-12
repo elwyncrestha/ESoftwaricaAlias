@@ -1,4 +1,4 @@
-package com.elvin.esoftwaricaalias.ui.model.enums;
+package com.elvin.esoftwaricaalias.model.enums;
 
 /**
  * @author Elvin Shrestha on 13/12/19
