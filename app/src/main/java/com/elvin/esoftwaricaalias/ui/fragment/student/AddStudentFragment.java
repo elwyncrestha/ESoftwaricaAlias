@@ -45,7 +45,7 @@ public class AddStudentFragment extends Fragment implements View.OnClickListener
         String fullName = this.etFullName.getText().toString().trim();
         String age = this.etAge.getText().toString().trim();
         String address = this.etAddress.getText().toString().trim();
-        RadioButton genderRadio = v.findViewById(this.rgGender.getCheckedRadioButtonId());
+        RadioButton genderRadio = getView().findViewById(this.rgGender.getCheckedRadioButtonId());
 
         if (TextUtils.isEmpty(fullName)) {
             this.etFullName.setError("Field full name is required!!!");
@@ -61,7 +61,7 @@ public class AddStudentFragment extends Fragment implements View.OnClickListener
             return;
         }
 
-        InAppDataHolder.students.add(new Student(fullName, Integer.parseInt(age), address, Gender.valueOf(String.valueOf(genderRadio.getText()))));
+        InAppDataHolder.students.add(new Student(fullName, Integer.parseInt(age), address, Gender.getEnum(String.valueOf(genderRadio.getText()))));
         Toast.makeText(getContext(), "Student added!!!", Toast.LENGTH_SHORT).show();
         this.etFullName.setText("");
         this.etAge.setText("");
