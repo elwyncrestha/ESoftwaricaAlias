@@ -78,7 +78,8 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
             @Override
             public void onClick(View v) {
                 InAppDataHolder.students.remove(position);
-                onUpdateListener.onUpdate();
+//                notifyItemChanged(position);
+                onUpdateListener.onUpdate(); // custom notifyItemChanged()
             }
         });
     }
